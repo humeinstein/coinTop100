@@ -20,3 +20,6 @@ for coin in content.coins():
     for coin2 in content.candle(coincopycandle["id"]):
         if tophund <= 99:
             print("Yesterday's Session:\nPrice Open: {}\nPrice Close: {}\nPrice High: {}\nPrice Low: {}\n".format(coin2["open"],coin2["close"], coin2["high"], coin2["low"]))
+
+
+    
